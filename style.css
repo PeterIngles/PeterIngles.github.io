@@ -1,19 +1,29 @@
 body {
-  background-color: #444444;
-  color: #dddddd;
+  background-color: #FFFFE0;
+  color: #8B4513;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 20%;
-  animation: fadeIn 5s;
 }
 .exp-header {
-   text-transform: uppercase;
-   border-top: 1px solid #dddddd;
-   border-bottom: 1px solid #dddddd;
-   background-color: rgba(0,0,0, 0.1);
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid #8B4513;
+  border-bottom: 1px solid #8B4513;
+  border-left: 1px solid #8B4513;
+  border-right: 1px solid #8B4513;
+  background-color: rgba(0,0,0, 0.1);
+  animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   -moz-animation: fadeIn 5s;
   -o-animation: fadeIn 5s;
   -ms-animation: fadeIn 5s;
+}
+.exp-description {
+  animation: fadeIn 10s;
+  -webkit-animation: fadeIn 10s;
+  -moz-animation: fadeIn 10s;
+  -o-animation: fadeIn 10s;
+  -ms-animation: fadeIn 10s;
 }
 @keyframes fadeIn {
   0% { opacity: 0; }
